@@ -1,0 +1,18 @@
+.main-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 1fr 2.5fr;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main-content {
+  grid-area: main;
+}

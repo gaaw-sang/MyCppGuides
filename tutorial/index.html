@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <title>C++</title>
 </head>
 <body>
-    <h1>tutorial</h1>
+    <div id="root">
+        <div class="header-wrapper">
+            <header>
+                <a href="index.html">トップへ戻る</a>
+            </header>
+        </div>
+        <div class="main-wrapper">
+            <aside class="sidebar">
+                <nav class="sidebar-inner">
+                    <ol>
+                        <li>
+                            関数テンプレート
+                        </li>
+                        <li>
+                            <details>
+                                <summary>配列</summary>
+                                <ol>
+                                    <li>生の配列</li>
+                                    <li>arrayライブラリ</li>
+                                    <li>vectorライブラリ</li>
+                                </ol>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>繰り返し処理</summary>
+                                <ol>
+                                    <li>for文</li>
+                                    <li>範囲for文</li>
+                                </ol>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>ポインタ</summary>
+                                <ol>
+                                    <li>生のポインタ</li>
+                                    <li>スマートポインタ</li>
+                                </ol>
+                            </details>
+                        </li>
+                        <li>
+                            構造体
+                        </li>
+                    </ol>
+                </nav>
+            </aside>
+            <main class="main-content">
+                <article class="main-page-content">
+                    <h1>C++</h1>
+                    <div class="section-content">
+                        <p>C++はC言語をもとに、先進的な機能を追加して作られた言語です。</p>
+                    </div>
+
+                    <section>
+                        <h2>リファレンスサイト</h2>
+                        <div class="section-content">
+                            <p>C++のリファレンスサイトは以下が有名どころのようです。</p>
+                            <ul>
+                                <li>
+                                    <a href="https://ja.cppreference.com/w/">cppreference.com</a>
+                                </li>
+                                <li>
+                                    <a href="https://cpprefjp.github.io/">C++日本語リファレンス</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </article>
+                <button onclick="pageSwitcher('first_splash/index.html')">ボタン</button>
+            </main>
+        </div>
+    </div>
+    <script src="js/content_switcher.js"></script>
 </body>
 </html>
